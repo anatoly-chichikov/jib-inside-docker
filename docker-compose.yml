@@ -1,0 +1,6 @@
+version: "3.4"
+services:
+  one:
+    image: jib/app-one
+  two:
+    image: jib/app-two
