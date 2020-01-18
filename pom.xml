@@ -11,6 +11,7 @@
 
     <modules>
         <module>app-one</module>
+        <module>app-two</module>
     </modules>
 
     <parent>
