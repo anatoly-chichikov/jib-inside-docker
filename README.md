@@ -33,6 +33,8 @@ Outside the docker:
 
 Here you can see an example of local launch only. For production environments 
 the principle is similar, with the difference that Jib should be used directly 
-to upload artifacts to your registry. To do this, you can use `jib:build` 
-instead of `jib:buildTar`. After that run your regular CI pipeline and apply
-those images to k8s cluster or something similar.
+to upload artifacts to your registry. 
+
+To do this, you can use `jib:build` instead of `jib:buildTar`. After that 
+run your regular CI pipeline and apply those images to k8s cluster or 
+something similar.
